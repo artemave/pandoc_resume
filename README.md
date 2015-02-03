@@ -12,3 +12,7 @@ Requirements:
 
  * ConTeXt
  * pandoc
+
+This fork:
+
+Is [github pages](https://pages.github.com/) ready. Example: http://artemave.github.io/pandoc_resume/
