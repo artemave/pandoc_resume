@@ -121,4 +121,4 @@ Blog
 :   [http://artemave.github.io](http://artemave.github.io)
 
 -----------
-> <artemave@gmail.com> • +44 775 213 4736 • 37 years old\
+> <artemave@gmail.com> · +44 775 213 4736 · 37 years old\
