@@ -10,24 +10,22 @@
 
 /* Whole document */
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    width: 800px;
-    margin: auto;
-    background: #FFFFFF;
-    padding: 10px 10px 10px 10px;
+  font-weight: 200;
+  line-height: 1.4em;
+  font-family: "HelveticaNeueLight","Helvetica",Helvetica,Arial,sans-serif;
+  width: 800px;
+  margin: auto;
+  background: #FFFFFF;
+  padding: 10px 10px 10px 10px;
 }
 
 /* Title of the resume */
 h1 {
-    font-size: 55px;
+    font-size: 40px;
     color: #757575;
     text-align:center;
     margin-bottom:15px;
-}
-h1:hover {
-    background-color: #757575;
-    color: #FFFFFF;
-    text-shadow: 1px 1px 1px #333;
+    margin-top: 45px;
 }
 
 /* Titles of categories */
@@ -44,11 +42,6 @@ h2:before {
     height: 10px;
     /* This is called "rulecolor" in the ConTeXt stylesheet. */
     background-color: #9CB770;
-}
-h2:hover {
-    background-color: #397249;
-    color: #FFFFFF;
-    text-shadow: 1px 1px 1px #333;
 }
 
 /* Definitions */
@@ -77,10 +70,7 @@ a {
     color: #397249;
 }
 a:hover, a:active {
-    background-color: #397249;
-    color: #FFFFFF;
-    text-decoration: none;
-    text-shadow: 1px 1px 1px #333;
+    text-decoration: underline;
 }
 
 /* Horizontal separators */
