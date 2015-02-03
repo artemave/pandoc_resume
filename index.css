@@ -13,7 +13,9 @@ body {
 #download-trigger-zone {
   position: fixed;
   left: 50%;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   width: 200px;
   height: 40px;
 }
@@ -22,14 +24,17 @@ body {
   position: fixed;
   left: 50%;
   top: 0;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   background-color: #c7e1ff;
   color: #2e639e;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   padding: 3px 10px;
   font-size: small;
-  transition: top 0.5s ease;
+  -webkit-transition: top 0.5s ease;
+          transition: top 0.5s ease;
 }
 
 #download-button.slide-up {
@@ -37,19 +42,28 @@ body {
 }
 
 #download-menu {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: fixed;
   left: 50%;
   top: 0;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   width: 300px;
   padding: 10px 40px;
   background-color: #c7e1ff;
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
   margin: 0;
-  transition: top 0.5s ease;
+  -webkit-transition: top 0.5s ease;
+          transition: top 0.5s ease;
 }
 
 #download-menu.slide-up {
@@ -66,7 +80,8 @@ body {
   vertical-align: top;
   min-width: 152px;
   text-align: center;
-  transition: background-color 0.2s ease;
+  -webkit-transition: background-color 0.2s ease;
+          transition: background-color 0.2s ease;
 }
 
 .download-menu-item a {
