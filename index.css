@@ -1,0 +1,88 @@
+body, html, iframe {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-weight: 200;
+  line-height: 1.4em;
+  font-family: "HelveticaNeueLight","Helvetica",Helvetica,Arial,sans-serif;
+}
+
+#download-trigger-zone {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 40px;
+}
+
+#download-button {
+  position: fixed;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  background-color: #c7e1ff;
+  color: #2e639e;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 3px 10px;
+  font-size: small;
+  transition: top 0.5s ease;
+}
+
+#download-button.slide-up {
+  top: -50px;
+}
+
+#download-menu {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  width: 300px;
+  padding: 10px 40px;
+  background-color: #c7e1ff;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  margin: 0;
+  transition: top 0.5s ease;
+}
+
+#download-menu.slide-up {
+  top: -50px;
+}
+
+.download-menu-item {
+  display: inline-block;
+  margin: 0 10px;
+  position: relative;
+  min-height: 30px;
+  border-radius: 4px;
+  background-color: #0288D1;
+  vertical-align: top;
+  min-width: 152px;
+  text-align: center;
+  transition: background-color 0.2s ease;
+}
+
+.download-menu-item a {
+  display: block;
+  text-decoration: none;
+  line-height: 30px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 15px;
+}
+
+.download-menu-item:hover {
+  background-color: #FFC107;
+}
+
+.download-menu-item a:active, .download-menu-item a:hover {
+  outline: 0;
+}
