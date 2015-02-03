@@ -1,100 +1,124 @@
-Johnny Coder
+Artem Avetisyan
 ============
 
 ----
 
->  In this style, the resume starts with a blockquote, where
->  you can briefly list your specialties, or include a salient
->  quote. Ending a line with a backslash forces a line break.
+>  London based software developer and enthusiast
 
 ----
-
-Education
----------
-
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
-
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
-
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
-
-    *Minor: Awesomeology*
 
 Experience
 ----------
 
-**Your Most Recent Work Experience:**
+**AppearHere**
 
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
+RoR developer (full stack) · Oct 2014 to Jan 2015 · London · [https://www.appearhere.co.uk](https://www.appearhere.co.uk/)
 
-* First item
+Working as a part of small agile team on various aspects of the site: searching for places, booking places, landlord onboarding, admin backend and more. Rails 4, Postgres/ElasticSearch, jQuery, Heroku. TDD (rspec), pair programming.
 
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
+**shopa**
 
-**That Other Job You Had**
+RoR developer (full stack) · Jun 2012 to Aug 2014 · London · [https://www.shopa.com](https://www.shopa.com/)
 
-Also with a short description.
+Working on several versions of shopa platform helping the business to find the right one. Rails 3.2/4.1, golang, Postgres/ElasticSearch, Phonegap, Angular/React, jQuery, Heroku/Amazon, Docker/Vagrant. BDD, pair programming. Continuous deployment.
+
+**BBC**
+
+Developer-in-test · May 2011 to May 2012 · London
+
+Bringing the light of BDD into some of the BBC Future Media projects. Ruby, Java, Cucumber. Pair programming.
+
+**Orange Labs UK**
+
+RoR developer · Jan 2011 to Mar 2011 · London · [http://labs.orange.com](http://labs.orange.com/)
+
+voisinssolidairesmobile.fr : mobile web application to helps people discover and exchange services with their neighbors. Greenfield project. Rails 3.0
+
+**Equal Media (currently [state.com](state.com))**
+
+RoR developer · Dec 2010 · London
+
+Migrated large (3 years old) core application from rails 2.3 to 3.0.
+
+**Orange Labs UK**
+
+RoR developer · Nov 2010 to Dec 2010 · London · [http://labs.orange.com](http://labs.orange.com/)
+
+Extending existing application – Orange Business Events – preparing it for next major release. The application had (web) mobile version and provided restful api for native mobile client. Rails 2.3.10.
+
+**Merjis**
+
+RoR developer · Oct 2010 · (remote client)
+
+Developed a webapp infrastructure for my client's custom web marketing tools. The application was built on the latest (as of this writing) rails technology stack (rails3, ruby1.9.2, rvm), using a number of industry standard libraries (devise, cancan, omniauth, simple_form, haml, jquery, etc), unit tested (rspec, shoulda, factory_girl) and hosted on heroku.
+
+**AOL**
+
+RoR developer · Apr 2010 to Aug 2010 · London · [http://www.aol.co.uk](http://www.aol.co.uk/)
+
+I was a part of a small agile team, mainly automating internals of AOL advertising business in the UK. That involved supporting existing application suite (adding features and bugfixing) as well as developing brand new applications.
+
+</br>
+...
+
+Years of Perl and, prior to that, C++ development.
 
 Technical Experience
 --------------------
 
-My Cool Side Project
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
+Languages
 
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
+:   ruby, javascript/coffeescript, golang, perl
+
+Frameworks
+
+:   rails, sinatra, jquery, backbone, angular, react, phonegap, rubymotion
+
+Testing
+
+:   outside in, BDD, cucumber, rspec, jasmine, mocha, travis-ci/jenkins/wercker
+
+Deploy
+
+:   heroku, aws/digital ocean, docker
+
+Dev Environment
+
+:   linux/osx, vagrant, vim, tmux, git
+
+Databases
+
+:   postgres, elasticsearch, mongodb, mysql, sqlite
 
 Open Source
-:   List open source contributions here, perhaps placing emphasis on
-    the project names, for example the **Linux Kernel**, where you
-    implemented multithreading over a long weekend, or **node.js**
-    (with [link](http://nodejs.org)) which was actually totally
-    your idea...
+--------------------
 
-Programming Languages
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
+Projects
+:   **[REST-assured](https://github.com/artemave/REST-assured)**: mock/stub external http dependencies. Ruby, Sinatra, ActiveRecord, rubygem.
 
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file). 
+:   **[StarLogs](http://starlogs.net/)**: github project logs - Star Wars crawl style.
 
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
+:   **[TransOver](https://chrome.google.com/webstore/detail/transover/aggiiclaiamajehmlfpkjmlbadmkledi)**: simply the best Google Chrome translator extension.
 
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
+:   **[http://thesmallestrailsapp.com/](http://thesmallestrailsapp.com/)**: the smallest rails app on the planet.
 
-[ref]: https://github.com/githubuser/superlongprojectname
+:   **[Oompa-loompa](https://github.com/artemave/oompa-loompa)**: a handful of bots all twitting links from HN/reddit based on link score (e.g. follow @RProgramming150). Ruby, MongoDB, deployed with docker.
 
-Extra Section, Call it Whatever You Want
-----------------------------------------
+:   **[LJ-friends-feed](https://github.com/artemave/lj-friends-feed)**: produce rss feed of friends' posts. Something that Live Journal never got around to implement for some reason. Deployed [here](http://5.101.106.49:9292/feeds/artemave). Ruby, Sinatra, MongoDB, deployed with docker.
 
-* Human Languages:
+:   **[CCCV](https://github.com/artemave/cccv)**: finds copy/pastes in a git diff.
 
-     * English (native speaker)
-     * ???
-     * This is what a nested list looks like.
+:   **[laundrette](https://github.com/artemave/laundrette)**: customer/order automation for my friends' dry-cleaning shop. Rails 4.1, [deployed](https://laundrette.herokuapp.com/) to heroku.
 
-* Random tidbit
+:   Lots of other tidbits on [github](https://github.com/artemave)
 
-* Other sort of impressive-sounding thing you did
+Contributions
 
-----
+:   [Rails](http://contributors.rubyonrails.org/contributors/artem-avetisyan/commits)
 
-> <email@example.com> • +00 (0)00 000 0000 • XX years old\
-> address - Mytown, Mycountry
+Blog
+
+:   [http://artemave.github.io](http://artemave.github.io)
+
+-----------
+> <artemave@gmail.com> • +44 775 213 4736 • 37 years old\
