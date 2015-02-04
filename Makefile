@@ -11,6 +11,8 @@ html: style_chmduquesne.css resume.md
 	pandoc --standalone -H style_chmduquesne.css \
         --from markdown --to html \
         -o resume.html resume.md
+	# otherwise links are opened within iframe
+	sed -i '' -e 's/href="[^"]*"/& target="_blank"/g' resume.html
 
 docx: resume.md
 	pandoc -s -S resume.md -o resume.docx
