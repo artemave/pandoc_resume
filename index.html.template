@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>%NAME% CV</title>
+    <link rel="stylesheet" href="./index.css" type="text/css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <div id="download-trigger-zone">
+      <div id="download-button">DOWNLOAD</div>
+    </div>
+    <div id="download-menu" class="slide-up">
+      <div class="download-menu-item"><a href="./resume.pdf" download="%NAME% CV.pdf" target="_blank">PDF</a></div>
+      <div class="download-menu-item"><a href="./resume.docx" download="%NAME% CV.docx" target="_blank">Word</a></div>
+    </div>
+    <iframe src="./resume.html" frameborder="0"></iframe>
+  </body>
+  <script type="text/javascript" charset="utf-8">
+    var triggerZone    = document.getElementById('download-trigger-zone'),
+        downloadButton = document.getElementById('download-button'),
+        downloadMenu   = document.getElementById('download-menu')
+
+    triggerZone.addEventListener('mouseenter', function() {
+      downloadButton.classList.add('slide-up')
+      downloadMenu.classList.remove('slide-up')
+    })
+
+    downloadMenu.addEventListener('mouseleave', function() {
+      downloadMenu.classList.add('slide-up')
+      downloadButton.classList.remove('slide-up')
+    })
+  </script>
+</html>

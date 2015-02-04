@@ -1,4 +1,4 @@
-all: html pdf docx rtf
+all: html pdf docx rtf render-index
 
 pdf: resume.md
 	pandoc --standalone --template style_chmduquesne.tex \
@@ -19,6 +19,9 @@ docx: resume.md
 
 rtf: resume.md
 	pandoc -s -S resume.md -o resume.rtf
+
+render-index: resume.md
+	./render-index.sh
 
 clean:
 	rm resume.html
