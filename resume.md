@@ -110,6 +110,8 @@ Projects
 
 :   **[laundrette](https://github.com/artemave/laundrette)**: customer/order automation for my friends' dry-cleaning shop. Rails 4.1, [deployed](https://laundrette.herokuapp.com/) to heroku.
 
+:   **[DevNot](http://devnot.herokuapp.com/)**: developer notes with code friendly markdown editor. Rails, Backbone.
+
 :   Lots of other tidbits on [github](https://github.com/artemave)
 
 Contributions
