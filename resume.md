@@ -10,6 +10,12 @@ Artem Avetisyan
 Experience
 ----------
 
+**The Peoples Operator**
+
+RoR developer (full stack) · Mar 2015 to present · London · [https://www.thepeoplesoperator.com/](https://www.thepeoplesoperator.com/)
+
+Building US store site. Greenfield project.
+
 **AppearHere**
 
 RoR developer (full stack) · Oct 2014 to Jan 2015 · London · [https://www.appearhere.co.uk](https://www.appearhere.co.uk/)
