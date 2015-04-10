@@ -12,9 +12,9 @@ Experience
 
 **The Peoples Operator**
 
-RoR developer (full stack) · Mar 2015 to present · London · [https://www.thepeoplesoperator.com/](https://www.thepeoplesoperator.com/)
+RoR developer (full stack) · Mar 2015 to Apr 2015 · London · [https://www.thepeoplesoperator.com/](https://www.thepeoplesoperator.com/)
 
-Building US store site. Greenfield project.
+Building mobile operator store stie for their luanch in the US. Greenfield project. Rails 4.2.
 
 **AppearHere**
 
