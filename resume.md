@@ -14,7 +14,7 @@ Experience
 
 RoR developer (full stack) · Mar 2015 to Apr 2015 · London · [https://www.thepeoplesoperator.com/](https://www.thepeoplesoperator.com/)
 
-Building mobile operator store stie for their luanch in the US. Greenfield project. Rails 4.2.
+Building mobile operator store site for their launch in the US. Greenfield project. Rails 4.2.
 
 **AppearHere**
 
@@ -116,7 +116,9 @@ Projects
 
 :   **[laundrette](https://github.com/artemave/laundrette)**: customer/order automation for my friends' dry-cleaning shop. Rails 4.1, [deployed](https://laundrette.herokuapp.com/) to heroku.
 
-:   **[DevNot](http://devnot.herokuapp.com/)**: developer notes with code friendly markdown editor. Rails, Backbone.
+:   **[DevNot](http://devnot.herokuapp.com/)**: developer notes with code friendly markdown editor. Rails 3, Backbone.
+
+:   **[Trackery](https://paul-tracker.herokuapp.com/trackers/f99c7274-01c1-4400-9131-11c712f01221?utf8=%E2%9C%93&q%5Btime_window_min%5D=1423845115&q%5Btime_window_max%5D=1428683515&q%5Btime_window_start%5D=1423890885.00&q%5Btime_window_end%5D=1425574948.49)**: shows gps tracker trails on the map. Rails 4.2.1, Twilio api, heroku.
 
 :   Lots of other tidbits on [github](https://github.com/artemave)
 
